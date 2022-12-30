@@ -1,3 +1,23 @@
+@import 'styles/variaveis';
+
 .menu {
-  padding: 0 250px;
+  padding: 24px $padding_horizontal;
+}
+
+.header {
+  padding: 0 $padding_horizontal;
+  height: 300px;
+  background-image: url("/assets/cardapio/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+    width: 40%;
+    min-width: 400px;
+  }
 }
