@@ -1,14 +1,44 @@
+import classNames from "classnames";
+import { useState } from "react";
 import opcoes from "./opcoes.json";
 import styles from "./Ordenador.module.scss";
-import React from "react";
+import { RiArrowUpSLine, RiArrowDownSLine } from "react-icons/ri";
 
-function Ordenador() {
+interface IOrdenador {
+  ordenador: string;
+  setOrdenador: React.Dispatch<React.SetStateAction<string>>;
+}
+
+function Ordenador({ ordenador, setOrdenador }: IOrdenador) {
+  const [aberto, setAberto] = useState(false);
+  const nomeOrdenador =
+    ordenador && opcoes.find((opcao) => opcao.value === ordenador)?.nome;
+
   return (
-    <button className={styles.ordenador}>
-      <span >Ordenar por:</span>
-      <div className={styles.ordenador__options}>
+    <button
+      className={classNames({
+        [styles.ordenador]: true,
+        [styles["ordenador--ativo"]]: ordenador !== "",
+      })}
+      onClick={() => setAberto(!aberto)}
+      onBlur={() => setAberto(false)}
+    >
+      <span>{nomeOrdenador || "Ordenar Por"}</span>
+      {aberto ? <RiArrowUpSLine size={22} /> : <RiArrowDownSLine size={22} />}
+      <div
+        className={classNames({
+          [styles.ordenador__options]: true,
+          [styles["ordenador__options--ativo"]]: aberto,
+        })}
+      >
         {opcoes.map((opcao) => (
-          <div key={opcao.value} className={styles.ordenador__option}>{opcao.nome}</div>
+          <div
+            key={opcao.value}
+            className={styles.ordenador__option}
+            onClick={() => setOrdenador(opcao.value)}
+          >
+            {opcao.nome}
+          </div>
         ))}
       </div>
     </button>
