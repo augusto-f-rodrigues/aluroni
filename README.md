@@ -1,46 +1,101 @@
-# Getting Started with Create React App
+<h1 align="center"><a href="#">Projeto Aluroni</a></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Aluroni é um cardápio digital de um restaurante italiano
+</p>
 
-## Available Scripts
+---
+## Deploy
+Projeto hospedado na Vercel:
+[Aluroni](https://aluroni-ten.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3 align="center">
+  Visão geral
+</h3>
 
-### `npm run build`
+![visao_geral](https://user-images.githubusercontent.com/85464318/213028602-c3caf1e9-550d-4f61-ab3a-964df5e8b331.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3 align="center">
+  Funcionamento dos filtros
+</h3>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![filtros](https://user-images.githubusercontent.com/85464318/213028322-3d1409c3-fd93-47e2-91fe-833c4a79997e.gif)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3 align="center">
+  Responsividade
+</h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![responsividade](https://user-images.githubusercontent.com/85464318/213028344-ca274f75-8e93-4d04-b86a-beded601ae3d.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tecnologias/ Ferramentas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJs](https://pt-br.reactjs.org/)
+
+---
+## 📃 Projeto
+
+Um cardápio de comida italiana, pensando em modelos de cardápios digitais que são bem comuns hoje em dia
+
+---
+## ⚙️ Como executar 
+
+### Pré-requistos globais: 
+
+
+```npm i -g nodemon typescript ts-node```
+
+
+
+### Para rodar o projeto
+
+
+
+Será necessário que a porta 3000  estejam disponíveis para a aplicação.
+
+1 - Clone o repositório em uma pasta de sua preferencia 
+
+2 - Entre na pasta do projeto
+```
+npm install  // todas as dependências serão automaticamente instaladas.
+```
+3 - Use o comando
+```
+npm start // para inicar a aplicação
+```
+
+<br>
+<br>
+<hr>
+## 🚀 memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito por Augusto Rodrigues  [ 🌐 LinkedIn.](https://www.linkedin.com/in/augusto-f-rodrigues/)
+
