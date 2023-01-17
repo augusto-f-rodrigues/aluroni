@@ -4,12 +4,12 @@
 Aluroni é um cardápio digital de um restaurante italiano
 </p>
 
----
+
 ## Deploy
 Projeto hospedado na Vercel:
 [Aluroni](https://aluroni-ten.vercel.app/)
 
----
+
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@ Projeto hospedado na Vercel:
   <a href="#memo-licença">Licença</a>
 </p>
 
----
+
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
@@ -47,7 +47,7 @@ Projeto hospedado na Vercel:
 ![responsividade](https://user-images.githubusercontent.com/85464318/213028344-ca274f75-8e93-4d04-b86a-beded601ae3d.gif)
 
 
----
+
 
 ## 🛠️ Tecnologias/ Ferramentas
 
@@ -56,12 +56,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJs](https://pt-br.reactjs.org/)
 
----
+<br>
+
 ## 📃 Projeto
 
 Um cardápio de comida italiana, pensando em modelos de cardápios digitais que são bem comuns hoje em dia
 
----
+<br>
+
 ## ⚙️ Como executar 
 
 ### Pré-requistos globais: 
