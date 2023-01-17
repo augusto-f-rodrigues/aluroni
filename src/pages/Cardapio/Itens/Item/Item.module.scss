@@ -8,10 +8,13 @@ $veganos: #80aa40;
 
 .item {
   display: flex;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgba($color: #D73B3B, $alpha: 0.05);
   flex-wrap: wrap;
   width: 90%;
   &__imagem {
-    min-width: 240px;
+    min-width: 200px;
     @media (max-width: $desktop_xsm) {
       width: 100%;
     }

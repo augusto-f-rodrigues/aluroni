@@ -1,12 +1,12 @@
 import classNames from "classnames";
-import { useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import opcoes from "./opcoes.json";
 import styles from "./Ordenador.module.scss";
 import { RiArrowUpSLine, RiArrowDownSLine } from "react-icons/ri";
 
 interface IOrdenador {
   ordenador: string;
-  setOrdenador: React.Dispatch<React.SetStateAction<string>>;
+  setOrdenador: Dispatch<SetStateAction<string>>;
 }
 
 function Ordenador({ ordenador, setOrdenador }: IOrdenador) {

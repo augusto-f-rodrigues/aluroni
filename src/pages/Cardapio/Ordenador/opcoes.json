@@ -4,15 +4,23 @@
     "value": ""
   },
   {
-    "nome": "Porção",
-    "value": "porcao"
+    "nome": "Porção Cresc.",
+    "value": "porcao_cresc"
+  },
+  {
+    "nome": "Porção Dec.",
+    "value": "porcao_dec"
+  },
+  {
+    "nome": "Preço Cresc.",
+    "value": "preco_cresc"
+  },
+  {
+    "nome": "Preço Dec.",
+    "value": "preco_dec"
   },
   {
     "nome": "Qtd. pessoas",
     "value": "qtd_pessoas"
-  },
-  {
-    "nome": "Preço",
-    "value": "preco"
   }
 ]
